@@ -1,0 +1,32 @@
+header {
+    height: 35vh;
+    /* background-image: url(../img/home.jpg); */
+    background-color: rgb(190, 191, 192);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+header .logo-container .logo {
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+}
+
+header .logo-container .name {
+    font-weight: bold;
+    text-transform: uppercase;
+}
