@@ -8,13 +8,17 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/info.css">
+    <link rel="stylesheet" href="css/status.css">
     <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/end.css">
 
 
     <title>Generador de pedidos</title>
 </head>
 <body>
-
+    <div class="status">
+        Abierto ahora...
+    </div>
     <header>
         <div class="logo-container">
             <div class="logo"></div>
@@ -25,7 +29,10 @@
 
     <div class="container">
         <div class="info">
-            Hacer mi pedido
+            <a href="#Granel" class="btn">Para servir</a>
+            <a href="#Granel" class="btn">Postres</a>
+            <a href="#Granel" class="btn">Palitos</a>
+            <a href="#Granel" class="btn">Tortas</a>
         </div>
         <div class="cards-container">
 
@@ -33,20 +40,27 @@
                 <h2>Helados para servir</h2>
                 <div class="separator"></div>
 
+
                 <div class="card">
-                    <div class="card-description">
-                        <div class="card-title">Nombre del producto</div>
-                        <div class="card-description">Descripcion breve</div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <div class="card-title">Nombre del producto</div>
+                            <div class="card-description">Descripcion breve</div>
+                        </div>
                         <div class="card-price">$5100</div>
                     </div>
                     <div class="card-image">
-
+                        <img src="https://experienciasmart.com.ar/web-experto/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZXc9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--06d79de012e052eda439b2d158538af1e3a16c29/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MY21WemFYcGxTU0lOTmpBd2VEWXdNRDRHT2daRlZEb01ZMjl1ZG1WeWREb0pkMlZpY0RvTWNYVmhiR2wwZVdrMyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f6a63eeed1d2f0691e2bafd664f4d07e84930838/3_4%20kg.jpeg" alt="">
                     </div>
                 </div>
             </div>
 
         </div>
 
+    </div>
+
+    <div class="end">
+        <button class="btn">Terminar Pedido</button>
     </div>
 
 </body>

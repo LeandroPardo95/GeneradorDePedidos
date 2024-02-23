@@ -1,5 +1,6 @@
 body {
     background-color: #f7f7f7;
+    height: 200vh;
 }
 
 
@@ -17,3 +18,13 @@ h2 {
     padding: 0;
     margin: .5rem;
   }
+
+.btn {
+    cursor: pointer;
+    text-decoration: none;
+    color: #3f3f3f;
+    padding: .25rem 1rem;
+    border-radius: 25px;
+    background-color: #e6e6e6;
+    border: none;
+}
