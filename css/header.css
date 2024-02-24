@@ -27,11 +27,20 @@ header .logo-container .logo {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: .5rem;
 }
 
 header .logo-container .name {
-    font-weight: bold;
     text-transform: uppercase;
+    font-family: var(--font-bebas-neue);
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--gold-color);
+}
+
+.slogan {
+    font-family: var(--font-raleway);
 }

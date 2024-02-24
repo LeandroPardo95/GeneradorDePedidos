@@ -32,3 +32,18 @@
     margin: 1rem;
     height: 100%;
 }
+
+.card-title,
+.card-price {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-description {
+    color: #807e7e;
+    padding-top: .5rem;
+}
+
+.card-price {
+    font-family: sans-serif;
+}
